@@ -1,0 +1,15 @@
+#!/bin/bash
+
+git add --all
+
+git commit -am "<$1>"
+
+git remote add origin git@gitee.com:wihoog/vim_set.git
+
+
+git pull origin master
+
+git push -u origin master
+
+exit 0
+
